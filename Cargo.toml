@@ -6,6 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-relm4 = "0.6.2"
-relm4-components = "0.6.2"
-relm4-macros = "0.6.2"
+relm4 = {git = "https://github.com/Relm4/Relm4.git", branch="as-ref-template-root"}
+relm4-components = {git = "https://github.com/Relm4/Relm4.git", branch="as-ref-template-root"}
+relm4-macros = {git = "https://github.com/Relm4/Relm4.git", branch="as-ref-template-root"}
+
